@@ -14,8 +14,8 @@ dados_normalizados = (dados - dados.mean()) / dados.std()
 
 # Hiperparâmetros da GAN
 dimensao_latente = 10
-epocas = 300
-tamanho_lote = 64
+epocas = 150
+tamanho_lote = 128
 
 # Gerador
 gerador = tf.keras.Sequential([
